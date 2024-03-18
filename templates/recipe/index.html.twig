@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Toutes les recettes{% endblock %}
+
+{% block body %}
+    <p>Coucou je suis un dev nul</p>
+    <ul>
+        <li>
+            <a href="{{ url('recipe.show', {id: 32, slug: 'tartes-aux-fraises'}) }}">Tartes aux Fraises</a>
+        </li>
+    </ul>
+{% endblock %}
